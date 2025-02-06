@@ -2,6 +2,7 @@ import type { Metadata } from "next";
 import { Roboto } from "next/font/google";
 import "./globals.css";
 import ResponsiveNavbar from "@/components/Home/Navbar/ResponsiveNavbar";
+import { Toaster } from "@/components/ui/sonner";
 
 const font = Roboto({
 	weight: ['100', '300', '400', '500', '700', '900'],
@@ -21,7 +22,8 @@ export default function RootLayout({ children }: Readonly<{ children: React.Reac
 		<html lang="en">
 		  <body className={`${font.className} bg-gray-900 antialiased`}>
 			  <ResponsiveNavbar />
-				{children}
+			  {children}
+			  <Toaster />
 			</body>
 		</html>
 	);
