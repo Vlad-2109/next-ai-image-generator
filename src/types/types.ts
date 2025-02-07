@@ -10,3 +10,9 @@ export interface MobileNavbarProps {
 export interface SectionHeadingProps {
 	heading: string;
 }
+
+export interface PriceCardProps {
+	price: string;
+	user: string;
+	type: string;
+}

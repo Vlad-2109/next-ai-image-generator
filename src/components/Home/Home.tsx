@@ -1,5 +1,6 @@
 import About from './About/About';
 import Hero from './Hero/Hero';
+import Price from './Price/Price';
 import RecentImage from './RecentImage/RecentImage';
 
 const Home = () => {
@@ -8,6 +9,7 @@ const Home = () => {
 			<Hero />
 			<RecentImage />
 			<About />
+			<Price />
 		</div>
 	);
 };
