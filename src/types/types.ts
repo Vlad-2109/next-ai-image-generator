@@ -16,3 +16,9 @@ export interface PriceCardProps {
 	user: string;
 	type: string;
 }
+
+export interface ReviewCardProps {
+	image: string;
+	name: string;
+	role: string;
+}
