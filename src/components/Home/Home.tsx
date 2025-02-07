@@ -1,9 +1,11 @@
 import Hero from './Hero/Hero';
+import RecentImage from './RecentImage/RecentImage';
 
 const Home = () => {
 	return (
-		<div className="overflow-hidden h-[2000px]">
+		<div className="overflow-hidden">
 			<Hero />
+			<RecentImage />
 		</div>
 	);
 };
