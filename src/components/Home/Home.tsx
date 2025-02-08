@@ -1,4 +1,5 @@
 import About from './About/About';
+import Faq from './Faq/Faq';
 import Hero from './Hero/Hero';
 import Price from './Price/Price';
 import RecentImage from './RecentImage/RecentImage';
@@ -12,6 +13,7 @@ const Home = () => {
 			<About />
 			<Price />
 			<Review />
+			<Faq />
 		</div>
 	);
 };
